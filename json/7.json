@@ -1,0 +1,65 @@
+{
+    "header": {
+      "logo": "imagenes/hanoveryy.png",
+      "title": "⚜️Fisico-Endomorfo⚜️",
+      "menu": [
+        {"name": "Inicio", "link": "index.html"},
+        {
+          "name": "Fisico",
+          "subMenu": [
+            {"name": "Ectomorfo", "link": "ectomorfo.html"},
+            {"name": "Endomorfo", "link": "#"},
+            {"name": "Mesomorfo", "link": "mesomorfo.html"}
+          ]
+        },
+        {
+          "name": "Recomendaciones",
+          "subMenu": [
+            {"name": "Leyendas", "link": "legen.html"}
+          ]
+        },
+        {
+          "name": "Ejercicios",
+          "subMenu": [
+            {"name": "Principiante", "link": "principiante.html"},
+            {"name": "Intermedio", "link": "int.css"},
+            {"name": "Avanzado", "link": "avanzado.html"}
+          ]
+        },
+        {"name": "Galeria", "link": "galeria.html"}
+      ]
+    },
+    "main": {
+      "headerText": "Compra nuestros servicios favoritos aqui",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In perspiciatis...",
+      "button": {"text": "informacion", "link": "#"},
+      "image": "imagenes/Instagram Post GYM Inscripción Rojo.png"
+    },
+    "products": [
+      {
+        "video": "https://www.youtube.com/embed/av2srVKs1UA",
+        "title": "Rutina para ganar masa muscular Aqui💣🔱✔"
+      },
+      {
+        "video": "https://www.youtube.com/embed/61ohRiBJnZw",
+        "title": "Comparacion de endomorfo y mesomorfo Aqui💣🔱✔"
+      },
+      {
+        "video": "https://www.youtube.com/embed/QVrS47-u0QQ",
+        "title": "Rutinas para endomorfos💣🔱✔"
+      },
+      {
+        "video": "https://www.youtube.com/embed/gJwjz3T_rlY",
+        "title": "Sublentos recomendados para tu tipo de fisico Aqui💣🔱✔"
+      },
+      {
+        "video": "https://www.youtube.com/embed/6wshhmPfc1g",
+        "title": "Aqui puedes hacer una comparacion de tu dieta segun tu cuerpo💣🔱✔"
+      },
+      {
+        "video": "https://www.youtube.com/embed/oTyrBFxd2LU",
+        "title": "Recomendaciones que te damos Aqui💣🔱✔"
+      }
+    ]
+  }
+  

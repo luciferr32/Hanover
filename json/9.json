@@ -1,0 +1,62 @@
+[
+    {
+        "imagen": "imagenes/re1.gif",
+        "titulo": "Brazo inferior",
+        "nivel": "Nivel Intermedio"
+    },
+    {
+        "imagen": "imagenes/h2.gif",
+        "titulo": "Antebrazo",
+        "nivel": "Nivel Intermedio"
+    },
+    {
+        "imagen": "imagenes/h3.jfif",
+        "titulo": "Brazo Inferior",
+        "nivel": "Nivel Intermedio"
+    },
+    {
+        "imagen": "imagenes/h4.jfif",
+        "titulo": "Brazo inferior y antebrazo",
+        "nivel": "Nivel Intermedio"
+    },
+    {
+        "imagen": "imagenes/h5.gif",
+        "titulo": "Antebrazo",
+        "nivel": "Nivel Intermedio"
+    },
+    {
+        "imagen": "imagenes/h6.jfif",
+        "titulo": "Antebrazo y brazo inferior",
+        "nivel": "Nivel Intermedio"
+    },
+    {
+        "imagen": "imagenes/pi4.gif",
+        "titulo": "Pecho",
+        "nivel": "Modo Principal"
+    },
+    {
+        "imagen": "imagenes/pi3.gif",
+        "titulo": "Pecho y espalda",
+        "nivel": "Modo Principal"
+    },
+    {
+        "imagen": "imagenes/pu1.gif",
+        "titulo": "Muslos superiores",
+        "nivel": "Modo Principal"
+    },
+    {
+        "imagen": "imagenes/pi6.gif",
+        "titulo": "Hombros y espalda superior",
+        "nivel": "Modo Principal"
+    },
+    {
+        "imagen": "imagenes/pi8.gif",
+        "titulo": "Glúteos",
+        "nivel": "Modo Principal"
+    },
+    {
+        "imagen": "imagenes/pu2.gif",
+        "titulo": "Glúteos y parte de los muslos laterales",
+        "nivel": "Modo Principal"
+    }
+]

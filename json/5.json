@@ -1,0 +1,40 @@
+{
+    "products": [
+        {
+            "image": "imagenes/h1.gif",
+            "title": "Brazo inferior",
+            "level": "Nivel Intermedio",
+            "link": "#"
+        },
+        {
+            "image": "imagenes/h2.gif",
+            "title": "Antebrazo",
+            "level": "Nivel Intermedio",
+            "link": "#"
+        },
+        {
+            "image": "imagenes/h3.jfif",
+            "title": "Brazo Inferior",
+            "level": "Nivel Intermedio",
+            "link": "#"
+        },
+        {
+            "image": "imagenes/h4.jfif",
+            "title": "Brazo inferior y antebrazo",
+            "level": "Nivel Intermedio",
+            "link": "#"
+        },
+        {
+            "image": "imagenes/h5.gif",
+            "title": "Antebrazo",
+            "level": "Nivel Intermedio",
+            "link": "#"
+        },
+        {
+            "image": "imagenes/h6.jfif",
+            "title": "Antebrazo y brazo inferior",
+            "level": "Nivel Intermedio",
+            "link": "#"
+        }
+    ]
+}

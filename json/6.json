@@ -1,0 +1,45 @@
+{
+    "categorias": [
+      {
+        "nombre": "Calzas y top",
+        "productos": [
+          {
+            "nombre": "Conjunto completo negro",
+            "precio": "$340",
+            "imagen": "imagenes/geo99.jpg"
+          },
+          {
+            "nombre": "Conjunto completo blanco",
+            "precio": "$230",
+            "imagen": "imagenes/geo5.jpg"
+          },
+          {
+            "nombre": "Conjunto completo Azul oscuro",
+            "precio": "$200",
+            "imagen": "imagenes/geor.webp"
+          }
+        ]
+      },
+      {
+        "nombre": "Buzos y pants",
+        "productos": [
+          {
+            "nombre": "Poleron negro",
+            "precio": "$140",
+            "imagen": "imagenes/pol1.webp"
+          },
+          {
+            "nombre": "Poleron gris",
+            "precio": "$230",
+            "imagen": "imagenes/pol2.webp"
+          },
+          {
+            "nombre": "Poleron gris claro",
+            "precio": "$200",
+            "imagen": "imagenes/pol3.webp"
+          }
+        ]
+      }
+    ]
+  }
+  

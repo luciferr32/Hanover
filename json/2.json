@@ -1,0 +1,32 @@
+[
+    {
+        "img": "imagenes/pi4.gif",
+        "title": "Pecho",
+        "description": "Modo Principal"
+    },
+    {
+        "img": "imagenes/pi3.gif",
+        "title": "Pecho y espalda",
+        "description": "Modo Principal"
+    },
+    {
+        "img": "imagenes/pu1.gif",
+        "title": "Muslos superiores",
+        "description": "Modo Principal"
+    },
+    {
+        "img": "imagenes/pi6.gif",
+        "title": "Hombros y espalda superior",
+        "description": "Modo Principal"
+    },
+    {
+        "img": "imagenes/pi8.gif",
+        "title": "Glúteos",
+        "description": "Modo Principal"
+    },
+    {
+        "img": "imagenes/pu2.gif",
+        "title": "Glúteos y parte de los muslos laterales",
+        "description": "Modo Principal"
+    }
+]

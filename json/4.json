@@ -1,0 +1,50 @@
+{
+    "header": {
+        "title": "⚜️Gym Leyendas⚜️",
+        "logo": "imagenes/hanoveryy.png"
+    },
+    "menu": [
+        { "text": "Inicio", "href": "index.html" },
+        { 
+            "text": "Fisico",
+            "submenu": [
+                { "text": "Ectomorfo", "href": "ectomorfo.html" },
+                { "text": "Endomorfo", "href": "endomorfo.html" },
+                { "text": "Mesomorfo", "href": "mesomorfo.html" }
+            ]
+        },
+        { "text": "Recomendaciones", "href": "recomendaciones.html" },
+        { 
+            "text": "Ejercicios",
+            "submenu": [
+                { "text": "Principiante", "href": "principiante.html" },
+                { "text": "Intermedio", "href": "intermedio.html" },
+                { "text": "Avanzado", "href": "avanzado.html" }
+            ]
+        },
+        { "text": "Galeria", "href": "galeria.html" }
+    ],
+    "sections": [
+        {
+            "title": "Arnold Schwarzenegger",
+            "description": "Lorem ipsum dolor sit amet...",
+            "images": [
+                "imagenes/Arnold.jfif",
+                "imagenes/descarga (1).jfif",
+                "imagenes/descarga (2).jfif",
+                "imagenes/descarga (3).jfif"
+            ]
+        },
+        {
+            "title": "Cris Bumstead",
+            "description": "Lorem ipsum dolor sit amet...",
+            "images": [
+                "imagenes/2019 - Chris Bumstead, Canada (2 February 1995), height 6-foot-1 (185 cm).jfif",
+                "imagenes/Cbum.jfif",
+                "imagenes/Chris Bumstead on Instagram_ _Classic Bum__.jfif",
+                "imagenes/descarga (4).jfif"
+            ]
+        }
+        
+    ]
+}

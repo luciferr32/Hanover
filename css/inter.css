@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ga+Maamli&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   text-decoration: none;
+    list-style: none;
+}
+body{
+  background-color: white;
+  background-size: cover;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+img{
+    max-width: 100%;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 1px 10px 25px
+    rgba(0,0,0,0.5);
+    transition: 2s;
+}
+img:hover{
+    transform: translateX(-30%);
+    filter: brightness(80%);
+}
+
+.contenedor-header{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    border-bottom: 1px solid #2f283e ;
+    z-index: 99;
+    padding: 0 20px;
+    background-color: black;
+
+}
+.contenedor-header header{
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  color: #ffffff;
+}
+.contenedor-header header nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px;
+    text-transform: uppercase;       
+}
+.tftrojo{
+    color: rgb(4, 134, 255);
+}
+.contenedor-header header nav a:hover {
+    color: rgb(255, 0, 0);
+}
+.menu{
+   list-style: none;
+   display: flex;
+   justify-content: space-around;
+}
+.memu > li > a{
+    display: block;
+    padding: 15px 20px;
+}
+.menu > li:hover{
+    background-color: gold;
+}
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0,0,0,1.0);
+}.menu li:hover .menu-vertical{
+  display: block;
+}
+.menu-vertical li:hover{
+    background-color: black;
+}
+.logo{
+    display: flex;
+   }
+   .logo img{
+     height: 50px;
+   }
+/* parte del contenido */
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px o;
+    background-color: cornsilk;
+}
+.header-txt{
+    flex-basis: 50%;
+    padding-right: 80px;
+}
+.header-txt h1{
+    font-size: 50px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #cc7709;
+    margin-bottom: 15PX;
+}
+P{
+    font-size: 18PX;
+    color: #000000;
+    margin-bottom: 25px;
+}
+.btn-1{
+    display: inline-block;
+    padding: 10px 25px;
+    color: #FFFFFF;
+    background-color:#FF8400 ;
+    text-transform: uppercase;
+    border-radius: 25px;
+    font-size: 16px;
+}
+.btn-1:hover{
+    background-color: #F38004;
+}
+.header-img{
+    flex-basis: 50%;
+}
+.products{
+    padding: 0 0 80px 0;
+    text-align: center;
+    background-color: white;
+}
+.products-content{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.products-1{
+    background-color: cornsilk;
+    padding: 20PX;
+}
+.products-1 h4{
+    color: #000000;
+    font-size: 25px;
+    margin-bottom: 5px;
+
+}
+.products-1 p{
+    color: #FF8400;
+    margin-bottom: 80px;
+}
+.footer{
+    
+    border-top: 1px solid #eeeeee;
+    padding: 20px 0;
+    background-color: #000000;
+}
+.footer.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-content ul{
+    display: flex;
+}
+.footer-content ul li a{
+    display: block;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 600;
+}
+.footer-content ul li a:hover{
+    color: #f7f6f6;
+    font-size: 30px;
+}
+@media(max-widht:991px){
+    .contenedor-header{
+        padding: 20px;
+        position: relative;
+    }
+    .contenedor-header .nav{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: black;
+        display: none;
+    }
+    .contenedor-header .nav ul{
+        flex-direction: column;
+    }
+    .contenedor-header .nav ul li{
+        width: 100%;
+        padding: 20px 0;
+    }
+    .contenedor-header .nav ul li a:hover{
+        color: #FFFFFF;
+    } 
+    .header-txt{
+        padding: 0 0 40px 0;
+    }
+    .services{
+        padding: 30px;
+        
+    }
+    .services-content{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .products{
+        padding: 30px;
+    }
+    .products-content{
+        margin-top: 30px;
+        grid-template-columns:repeat(1,1fr);     
+    }
+    .testimonio{
+        padding: 30px;
+    }
+    .testimonio-content{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .testimonio-1{
+        margin-bottom: 30px;
+    }
+
+    }

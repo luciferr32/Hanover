@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ga+Maamli&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: white;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+img {
+    max-width: 100%; /* Asegura que las imágenes no excedan el ancho del contenedor */
+    height: auto; /* Mantiene la relación de aspecto */
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 1px 10px 25px rgba(0, 0, 0, 0.5);
+    transition: 2s;
+}
+
+img:hover {
+    transform: translateX(-30%);
+    filter: brightness(80%);
+}
+
+.contenedor-header {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    border-bottom: 1px solid #2f283e;
+    z-index: 99;
+    padding: 0 20px;
+    background-color: black;
+}
+
+.contenedor-header header {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    color: #ffffff;
+}
+
+.contenedor-header header nav a {
+    display: inline-block;
+    color: #ffffff;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.tftrojo {
+    color: rgb(4, 134, 255);
+}
+
+.contenedor-header header nav a:hover {
+    color: rgb(4, 134, 255);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-vertical {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 1.0);
+}
+
+.menu li:hover .menu-vertical {
+    display: block;
+}
+.logo{
+ display: flex;
+}
+.logo img{
+  height: 50px;
+}
+/* parte del contenido */
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0;
+    background-color: cornsilk;
+}
+
+.header-txt {
+    flex-basis: 50%;
+    padding-right: 80px;
+}
+
+.header-txt h1 {
+    font-size: 50px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #cc7709;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 10px 25px;
+    color: #FFFFFF;
+    background-color: #FF8400;
+    text-transform: uppercase;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+.btn-1:hover {
+    background-color: #F38004;
+}
+
+.header-img {
+    flex-basis: 50%;
+}
+
+.services{
+    padding: 80px 0;
+    text-align: center;
+    background-color: cornsilk;
+}
+h2{
+    color: #cf6f15;
+    font-size: 40px;
+}
+.services-content{
+    display: flex;
+    justify-content: space-between; /* este da espacio mas largos entre cada contenido que hay a su alrededor*/
+    margin-top: 50px; /*margin superior*/
+}
+.services-1{
+    flex-basis: calc(33.3% - 40px); /*base flexible */
+
+}
+.services-1 img{
+    width: 30px; /*abcho*/
+    margin-bottom: 10px; /*margen inferor*/
+}
+.services-1 h3{
+    color: #1B1B1D;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.products {
+    padding: 0 0 80px 0;
+    text-align: center;
+    background-color: white;
+}
+
+.products-content {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.products-1{
+    background-color: cornsilk;
+    padding: 20PX;
+}
+.products-1 h4{
+    color: #000000;
+    font-size: 25px;
+    margin-bottom: 5px;
+
+}
+.products-1 p{
+    color: #FF8400;
+    margin-bottom: 80px;
+}
+.testimonio{
+    text-align: center;
+    padding-bottom: 80px;
+    background-color: cornsilk;
+}
+.testimonio-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.testimonio-1{
+    flex-basis: calc(50% - 20px);
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    border-radius: 20px;
+}
+.textimonio-1 video{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.testimonio h3{
+    color: rgb(34, 159, 231);
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.testimonio-1 p{
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.footer{
+    
+    border-top: 1px solid #eeeeee;
+    padding: 20px 0;
+    background-color: #000000;
+}
+.footer.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-content ul{
+    display: flex;
+}
+.footer-content ul li a{
+    display: block;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 600;
+}
+.footer-content ul li a:hover{
+    color: #93c016;
+    font-size: 30px;
+}
+
+@media (max-width: 768px) {
+    .contenedor-header {
+        flex-direction: column; /* Cambia a columna en lugar de fila */
+        align-items: flex-start; /* Alinear elementos al inicio */
+    }
+
+    .header-content {
+        flex-direction: column; /* Cambia a columna para móviles */
+        padding: 20px; /* Reduce el relleno */
+    }
+
+    .header-txt {
+        padding-right: 0; /* Quitar relleno derecho */
+        text-align: center; /* Centrar texto */
+    }
+
+    .header-img {
+        flex-basis: 100%; /* Ocupa el 100% del ancho */
+        text-align: center; /* Centrar la imagen */
+    }
+
+    .products-content {
+        grid-template-columns: 1fr; /* Una sola columna en móviles */
+    }
+
+    .products-1 {
+        padding: 10px; /* Reducir relleno */
+    }
+}
+
+/* Estilos para tabletas y computadoras */
+
+@media (min-width: 769px) {
+    .products-content {
+        grid-template-columns: repeat(3, 1fr); /* Tres columnas */
+    }
+
+    .header-content {
+        padding: 80px 0; /* Mantener relleno grande */
+    }
+}
+
+
+
+
+
+ 

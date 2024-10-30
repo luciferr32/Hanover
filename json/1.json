@@ -1,0 +1,50 @@
+{
+    "header": {
+      "logo": "imagenes/hanoveryy.png",
+      "title": "⚜️RECOMENDACIONES⚜️",
+      "menu": [
+        {"name": "Inicio", "link": "index.html"},
+        {
+          "name": "Fisico",
+          "submenu": [
+            {"name": "Ectomorfo", "link": "ectomorfo.html"},
+            {"name": "Endomorfo", "link": "endomorfo.html"},
+            {"name": "Mesomorfo", "link": "mesomorfo.html"}
+          ]
+        },
+        {"name": "Recomendaciones", "link": "recomendaciones.html"},
+        {"name": "Ejercicios", "submenu": [
+            {"name": "Principiante", "link": "principiante.html"},
+            {"name": "Intermedio", "link": "intermedio.html"},
+            {"name": "Avanzado", "link": "avanzado.html"}
+          ]
+        },
+        {"name": "Galeria", "link": "galeria.html"}
+      ]
+    },
+    "mainContent": [
+      {
+        "sectionTitle": "MESOMORFO",
+        "videos": [
+          {
+            "url": "https://www.youtube.com/embed/HwBSv-rpLhw?si=qkOlGe20qDD1T_Sq",
+            "description": "Rutina para ganar masa muscular Aqui💣🔱✔"
+          },
+          {
+            "url": "https://www.youtube.com/embed/61ohRiBJnZw?si=h_1YEkafLU57wTIK",
+            "description": "Comparacion de endomorfo y mesomorfo Aqui💣🔱✔"
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Recomendaciones",
+        "videos": [
+          {
+            "url": "https://www.youtube.com/embed/kjzqXcgqzQA?si=eFc_NiYyEcBw7Hl7",
+            "description": "Gana rapidamente masa muscular Aqui💣🔱✔"
+          }
+        ]
+      }
+    ]
+  }
+  
